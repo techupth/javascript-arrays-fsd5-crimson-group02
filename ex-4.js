@@ -9,18 +9,18 @@ const employees = [
     age: 25,
     hobbies: ["Cryptocurrency", "Social media"],
   },
-
-  // Start coding here
+];
+// Start coding here
+employees.push(
   {
     name: "Alicia",
-    age: 29,
+    age: 19,
     hobbies: ["Shopping", "Reading novels"],
   },
   {
-    name: "Alex",
+    name: "Kody",
     age: 19,
     hobbies: ["Computer games", "Wakeboard"],
-  },
-];
-
+  }
+);
 console.log(employees);
